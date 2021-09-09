@@ -18,8 +18,7 @@ struct ContentView: View {
                 ColorCircleUI(color: .yellow, brightness: 0)
                 ColorCircleUI(color: .green, brightness: 0)
             }
-            .padding(.bottom, 300)
-            Spacer(minLength: 100)
+            Spacer(minLength: 400)
             ButtonUI(buttonText: "START")
         }
     }
